@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
-    <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' name='viewport' />
+    <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+        name='viewport' />
 
     <title>PDF Merger - Combine PDF Files Online</title>
 
-    <meta name="description" content="Merge multiple PDF files into one document quickly and easily with our modern PDF Merger tool." />
+    <meta name="description"
+        content="Merge multiple PDF files into one document quickly and easily with our modern PDF Merger tool." />
     <meta name="keywords" content="PDF Merger, Merge PDF, Combine PDF, Online PDF Tool" />
     <meta name="author" content="PDF Merger Tool" />
 
@@ -27,13 +30,26 @@
                     <i class="fa-solid fa-file-pdf text-danger me-2"></i>
                     PDF Merger
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <nav class="d-none d-md-flex gap-4">
-                    <a href="#" class="text-decoration-none text-secondary">Home</a>
-                    <a href="#" class="text-decoration-none text-secondary">Features</a>
-                    <a href="#" class="text-decoration-none text-secondary">Contact</a>
-                </nav>
-            </div>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
         </div>
     </header>
 
@@ -74,13 +90,7 @@
                                         Drag & drop your files here or click the button below.
                                     </p>
 
-                                    <input
-                                        type="file"
-                                        id="pdfFiles"
-                                        class="form-control mb-4"
-                                        accept=".pdf"
-                                        multiple
-                                    >
+                                    <input type="file" id="pdfFiles" class="form-control mb-4" accept=".pdf" multiple>
 
                                     <button class="btn btn-primary px-4 py-2 rounded-pill">
                                         <i class="fa-solid fa-layer-group me-2"></i>
@@ -157,7 +167,7 @@
                         </span>
 
                         <div class="bg-light border rounded-4 d-flex align-items-center justify-content-center"
-                             style="height: 140px;">
+                            style="height: 140px;">
 
                             <div>
                                 <i class="fa-solid fa-rectangle-ad fa-2x text-secondary mb-2"></i>
@@ -222,4 +232,5 @@
     </script>
 
 </body>
+
 </html>
