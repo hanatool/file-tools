@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Image to PDF Converter</title>
+
+    <meta name="title" content="Image to PDF Converter">
+    <meta name="description" content="Convert JPG, PNG, and WEBP images into PDF files quickly and easily using this modern online Image to PDF tool.">
+    <meta name="keywords" content="image to pdf, jpg to pdf, png to pdf, online pdf converter">
+    <meta name="author" content="Image to PDF Tool">
+
+    <meta property="og:title" content="Image to PDF Converter">
+    <meta property="og:description" content="Fast and modern Image to PDF converter tool.">
+    <meta property="og:type" content="website">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-light text-dark">
+
+    <!-- Header -->
+    <header class="bg-white border-bottom shadow-sm">
+        <div class="container py-3 d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-2">
+                <i class="fa-solid fa-file-pdf text-danger fs-3"></i>
+                <h1 class="h4 mb-0 fw-bold">Image to PDF</h1>
+            </div>
+
+            <button class="btn btn-outline-dark btn-sm">
+                <i class="fa-solid fa-cloud-arrow-up me-1"></i>
+                Upload
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">
+                    Convert Images to PDF Easily
+                </h2>
+
+                <p class="text-secondary mx-auto" style="max-width: 720px;">
+                    Upload JPG, PNG, or WEBP images and convert them into high-quality PDF documents instantly. 
+                    Fast, responsive, and simple to use on any device.
+                </p>
+            </div>
+
+            <!-- Upload Card -->
+            <div class="card border-0 shadow-sm rounded-4">
+                <div class="card-body p-4 p-md-5">
+
+                    <div class="border border-2 border-secondary-subtle rounded-4 bg-light text-center p-5">
+                        <i class="fa-solid fa-images fs-1 text-primary mb-3"></i>
+
+                        <h3 class="h5 fw-semibold mb-2">
+                            Drag & Drop Images
+                        </h3>
+
+                        <p class="text-secondary mb-4">
+                            Select one or multiple images to convert into PDF.
+                        </p>
+
+                        <input 
+                            type="file" 
+                            id="imageInput" 
+                            class="form-control mb-4" 
+                            accept="image/*" 
+                            multiple
+                        >
+
+                        <button class="btn btn-primary px-4" id="convertBtn">
+                            <i class="fa-solid fa-file-arrow-down me-2"></i>
+                            Convert to PDF
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="row mt-5 g-4">
+
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100 rounded-4">
+                        <div class="card-body p-4">
+                            <i class="fa-solid fa-bolt text-warning fs-3 mb-3"></i>
+                            <h4 class="h5 fw-bold">Fast Conversion</h4>
+                            <p class="text-secondary mb-0">
+                                Convert multiple image files into one PDF document within seconds.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100 rounded-4">
+                        <div class="card-body p-4">
+                            <i class="fa-solid fa-shield-halved text-success fs-3 mb-3"></i>
+                            <h4 class="h5 fw-bold">Secure Process</h4>
+                            <p class="text-secondary mb-0">
+                                Your uploaded files remain private and are processed securely.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100 rounded-4">
+                        <div class="card-body p-4">
+                            <i class="fa-solid fa-mobile-screen-button text-info fs-3 mb-3"></i>
+                            <h4 class="h5 fw-bold">Responsive Design</h4>
+                            <p class="text-secondary mb-0">
+                                Works perfectly on desktop, tablet, and mobile devices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Ads Area -->
+            <div class="mt-5">
+                <div class="card border-0 shadow-sm rounded-4">
+                    <div class="card-body text-center py-5">
+                        <span class="badge bg-secondary mb-3">Advertisement</span>
+
+                        <h5 class="fw-bold mb-2">
+                            Your Ad Space
+                        </h5>
+
+                        <p class="text-secondary mb-0">
+                            728 x 90 Banner Advertisement Area
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-top mt-5">
+        <div class="container py-4 text-center">
+
+            <div class="mb-2">
+                <a href="#" class="text-decoration-none text-secondary me-3">
+                    Privacy Policy
+                </a>
+
+                <a href="#" class="text-decoration-none text-secondary me-3">
+                    Terms
+                </a>
+
+                <a href="#" class="text-decoration-none text-secondary">
+                    Contact
+                </a>
+            </div>
+
+            <p class="text-secondary small mb-0">
+                © 2026 Image to PDF Converter. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script -->
+    <script>
+        const imageInput = document.getElementById('imageInput');
+        const convertBtn = document.getElementById('convertBtn');
+
+        convertBtn.addEventListener('click', () => {
+            const files = imageInput.files;
+
+            if (!files.length) {
+                alert('Please select at least one image.');
+                return;
+            }
+
+            alert(files.length + ' image(s) ready for PDF conversion.');
+        });
+    </script>
+
+</body>
+</html>

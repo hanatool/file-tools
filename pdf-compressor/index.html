@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Compress PDF files online quickly and easily with our modern PDF Compressor tool." />
+    <meta name="keywords" content="PDF Compressor, Compress PDF, Reduce PDF Size, Online PDF Tool" />
+    <meta name="author" content="PDF Compressor" />
+
+    <title>PDF Compressor</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-light text-dark">
+
+    <!-- Header -->
+    <header class="border-bottom bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light container py-3">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fa-solid fa-file-pdf text-danger me-2"></i>
+                PDF Compressor
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="py-5 bg-white">
+        <div class="container text-center">
+            <div class="mx-auto" style="max-width: 750px;">
+                <h1 class="display-5 fw-bold mb-3">
+                    Compress PDF Files Easily
+                </h1>
+
+                <p class="text-secondary fs-5 mb-4">
+                    Reduce your PDF file size online without losing quality. Fast, secure, and easy to use on any device.
+                </p>
+
+                <button class="btn btn-danger btn-lg px-4">
+                    <i class="fa-solid fa-upload me-2"></i>
+                    Upload PDF
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Box -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="card border-0 shadow-sm rounded-4">
+                <div class="card-body p-5 text-center">
+
+                    <div class="mb-4">
+                        <i class="fa-solid fa-file-arrow-up fa-4x text-danger"></i>
+                    </div>
+
+                    <h3 class="fw-semibold mb-3">
+                        Drag & Drop Your PDF
+                    </h3>
+
+                    <p class="text-secondary mb-4">
+                        Select a PDF file to start compressing instantly.
+                    </p>
+
+                    <input type="file" class="form-control mb-4" id="pdfInput" accept=".pdf">
+
+                    <div class="d-grid d-md-flex justify-content-center gap-3">
+                        <button class="btn btn-danger px-4" id="compressBtn">
+                            <i class="fa-solid fa-compress me-2"></i>
+                            Compress PDF
+                        </button>
+
+                        <button class="btn btn-outline-secondary px-4" id="resetBtn">
+                            <i class="fa-solid fa-rotate-left me-2"></i>
+                            Reset
+                        </button>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="progress d-none" id="progressContainer">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                 id="progressBar"
+                                 role="progressbar"
+                                 style="width: 0%">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advertisement -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="card border-0 bg-white shadow-sm rounded-4">
+                <div class="card-body text-center py-5">
+                    <p class="text-uppercase text-secondary small mb-2">
+                        Advertisement
+                    </p>
+
+                    <div class="border rounded-4 p-5 bg-light">
+                        <h5 class="fw-bold mb-2">
+                            Your Ad Banner Here
+                        </h5>
+
+                        <p class="text-secondary mb-0">
+                            728 x 90 Responsive Advertisement Space
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Description -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="fa-solid fa-bolt fa-2x text-danger"></i>
+                            </div>
+
+                            <h5 class="fw-bold">
+                                Fast Compression
+                            </h5>
+
+                            <p class="text-secondary mb-0">
+                                Compress PDF files quickly with optimized performance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="fa-solid fa-shield-halved fa-2x text-danger"></i>
+                            </div>
+
+                            <h5 class="fw-bold">
+                                Secure Processing
+                            </h5>
+
+                            <p class="text-secondary mb-0">
+                                Your uploaded documents remain private and secure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="fa-solid fa-mobile-screen-button fa-2x text-danger"></i>
+                            </div>
+
+                            <h5 class="fw-bold">
+                                Mobile Friendly
+                            </h5>
+
+                            <p class="text-secondary mb-0">
+                                Use the PDF compressor on desktop, tablet, or smartphone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-top py-4">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+                
+                <div class="mb-3 mb-md-0">
+                    <h6 class="fw-bold mb-1">
+                        PDF Compressor
+                    </h6>
+
+                    <small class="text-secondary">
+                        Compress your PDF files online with ease.
+                    </small>
+                </div>
+
+                <div>
+                    <a href="#" class="text-secondary text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+
+                    <a href="#" class="text-secondary text-decoration-none">
+                        Terms of Service
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script -->
+    <script>
+        const compressBtn = document.getElementById('compressBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const progressContainer = document.getElementById('progressContainer');
+        const progressBar = document.getElementById('progressBar');
+        const pdfInput = document.getElementById('pdfInput');
+
+        compressBtn.addEventListener('click', () => {
+            if (!pdfInput.files.length) {
+                alert('Please upload a PDF file first.');
+                return;
+            }
+
+            progressContainer.classList.remove('d-none');
+
+            let progress = 0;
+
+            const interval = setInterval(() => {
+                progress += 10;
+
+                progressBar.style.width = progress + '%';
+                progressBar.innerText = progress + '%';
+
+                if (progress >= 100) {
+                    clearInterval(interval);
+
+                    setTimeout(() => {
+                        alert('PDF compression completed successfully.');
+                    }, 500);
+                }
+            }, 300);
+        });
+
+        resetBtn.addEventListener('click', () => {
+            pdfInput.value = '';
+            progressBar.style.width = '0%';
+            progressBar.innerText = '';
+            progressContainer.classList.add('d-none');
+        });
+    </script>
+
+</body>
+</html>
