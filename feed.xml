@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+
+    <title>Hanapha File Tools</title>
+    <link>https://tools.hanapha.com/file-tools</link>
+
+    <description>
+      Free online file tools for converting, compressing, merging, splitting, extracting, and managing PDF, DOCX, ZIP, and image files directly in your browser.
+    </description>
+
+    <language>en-us</language>
+
+    <item>
+      <title>DOCX to PDF</title>
+      <link>https://tools.hanapha.com/file-tools/docx-to-pdf</link>
+      <description>
+        Convert DOCX documents into PDF files online instantly.
+      </description>
+    </item>
+
+    <item>
+      <title>File Size Calculator</title>
+      <link>https://tools.hanapha.com/file-tools/file-size-calculator</link>
+      <description>
+        Calculate and estimate file sizes quickly online.
+      </description>
+    </item>
+
+    <item>
+      <title>Image to PDF</title>
+      <link>https://tools.hanapha.com/file-tools/image-to-pdf</link>
+      <description>
+        Convert image files into PDF documents easily.
+      </description>
+    </item>
+
+    <item>
+      <title>PDF Compressor</title>
+      <link>https://tools.hanapha.com/file-tools/pdf-compressor</link>
+      <description>
+        Compress PDF files to reduce file size online.
+      </description>
+    </item>
+
+    <item>
+      <title>PDF Merger</title>
+      <link>https://tools.hanapha.com/file-tools/pdf-merger</link>
+      <description>
+        Merge multiple PDF files into one document online.
+      </description>
+    </item>
+
+    <item>
+      <title>PDF Splitter</title>
+      <link>https://tools.hanapha.com/file-tools/pdf-splitter</link>
+      <description>
+        Split PDF files into separate pages or sections easily.
+      </description>
+    </item>
+
+    <item>
+      <title>PDF to Image</title>
+      <link>https://tools.hanapha.com/file-tools/pdf-to-image</link>
+      <description>
+        Convert PDF pages into image files online instantly.
+      </description>
+    </item>
+
+    <item>
+      <title>ZIP Extractor</title>
+      <link>https://tools.hanapha.com/file-tools/zip-extractor</link>
+      <description>
+        Extract ZIP archive files directly in your browser.
+      </description>
+    </item>
+
+  </channel>
+
+</rss>
